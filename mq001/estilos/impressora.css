@@ -18,9 +18,14 @@ html{
 
 article::after{
     content: 'Esse artigo foi impresso no dia tal';
+   
 
 }
 
 body{
     background-color: aqua;
+}
+
+article{
+    width: 100%;
 }

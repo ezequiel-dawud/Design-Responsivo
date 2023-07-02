@@ -11,6 +11,21 @@ html{
     font-size: 16px;
 }
 
-body{
-    background-color: blue;
+header{
+    background-color: rgb(128, 128, 167);
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: rgb(53, 78, 78);
+    padding: 10px;
+}
+
+menu li{
+    display: inline-block;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto
 }
