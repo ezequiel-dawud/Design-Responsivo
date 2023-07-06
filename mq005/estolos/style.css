@@ -12,7 +12,7 @@ body{
 }
 
 header {
-    background-color: rgb(24, 4, 97);
+    background-color: rgb(72, 52, 143);
     color: white;
 }
 
@@ -21,8 +21,27 @@ h1{
     padding: 10px;
 }
 
-menu{
+#bar{
+    padding: 10px;
+    background-color: rgba(4, 184, 184, 0.404);
+    text-align: center;
     display: block;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+#bar:hover{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition-duration: 1s;
+    background-color: rgb(72, 52, 143);
+    padding: 0px;
+    font-size: 38px;
+    
+}
+
+menu{
+    display: none;
 }
 
 
@@ -36,7 +55,7 @@ menu > ul > li >a{
     text-decoration: none;
     display: block;
     padding: 10px;
-    color: blue;
+    color: rgb(8, 8, 240);
     background-color: rgb(231, 253, 34);
     text-align: center;
     border-top: 2px solid rgb(255, 255, 255);
@@ -67,35 +86,4 @@ article > p {
     padding: 10px;
     text-indent: 25px;
 }
-.container{
-    width: 100vw;
-    height: 505px;
-    overflow: hidden;
-    background-color: rgb(174, 174, 194);
-}
-
-
-#azul{
-    position: absolute;
-    width: 130px;
-    height: 500px;
-    background: rgb(39, 177, 241);
-    border: 1px 1px solid white;
-    rotate: 12deg;
-    left: 200px;
-
-}
-#azul:hover{
-    position: absolute;
-    width: 160px;
-    height: 500px;
-    background: rgb(39, 177, 241);
-    animation: 1s ease-in-out;
-    border: 1px 1px solid white;
-    rotate: 12deg;
-    left: 200px;
-
-}
-
-
 
